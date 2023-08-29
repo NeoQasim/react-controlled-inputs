@@ -9,7 +9,7 @@ const Form = () => {
     const handleClick= (e)=>{
         e.preventDefault()
         console.log(name+email+password);
-        setname([])
+        setname([]) 
         setemail([])
         setpassword([])
     }
