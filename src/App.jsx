@@ -1,5 +1,6 @@
-import Objectform from "./Objectform";
-import Objectstate from "./Objectstate";
+// import Objectform from "./Objectform";
+import Todo from "./todo/Todo";
+// import Objectstate from "./Objectstate";
 // import Form from "./assets/Form";
 
 const App = () => {
@@ -7,8 +8,8 @@ const App = () => {
   return (
     <>
       {/* <Form /> */}
-      <Objectstate />
-      <Objectform />
+      <Todo />
+      {/* <Objectstate /> */}
     </>
   );
 };
